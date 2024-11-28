@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+html, * {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalhoVertical {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 1900px;
+    background-color: rgb(33, 112, 169);
+    color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.perfilFoto {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.perfilFoto img {
+    width: 70%;
+    border-radius: 200px;
+    margin-bottom: 10px;
+}
+
+.perfilNome {
+    margin-bottom: 30px;
+}
+
+.itensCabecalho div {
+    width: 90%;
+    margin-bottom: 15px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    background-color: #cccccc4d;
+}
+
+.itensCabecalho a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.itensCabecalho div:hover {
+    cursor: pointer;
+    background-color: #cccccc7c;
+}
+
+.logoPerfilEdit {
+    opacity: 30%;
+    font-size: 20px;
+    bottom: 93%;
+    left: 14%;
+    position: absolute;
+}
+
+.playStoreAplle {
+    font-size: 200%;
+    display: flex;
+    justify-content: space-evenly;
+}
